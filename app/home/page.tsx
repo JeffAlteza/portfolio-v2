@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import DownloadLink from "../components/ButtonLink"
 import NavBar from "../components/Navbar"
 import { AccordionWorkExperience } from "../components/AccordionWorkExperience"
@@ -17,11 +16,11 @@ export default function Home() {
         {/* Left Content */}
         <div className="md:w-3/5">
           <h1 className="text-5xl font-bold mb-2 text-gray-700">
-            Hi I'm <span className="text-black">Jeffrey!</span>
+            Hi I&apos;m <span className="text-black">Jeffrey!</span>
           </h1>
           <h2 className="text-2xl text-gray-600 mb-4">Backend Software Engineer</h2>
           <p className="text-gray-600 mb-8 max-w-2xl indent-8">
-            I'm a backend enthusiast who loves turning complex ideas into clean, scalable solutions. I bring energy, precision, and a sprinkle of fun to every line of code.
+            I&apos;m a backend enthusiast who loves turning complex ideas into clean, scalable solutions. I bring energy, precision, and a sprinkle of fun to every line of code.
           </p>
           <div className="flex space-x-3">
             <DownloadLink
