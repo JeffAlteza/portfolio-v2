@@ -7,6 +7,20 @@ const nextConfig: NextConfig = {
   },
   basePath: '/REPO_NAME', // ← important!
   trailingSlash: true,
+ 
 };
 
 export default nextConfig;
+
+
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/home',
+        permanent: true,
+      },
+    ]
+  },
+}
