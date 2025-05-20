@@ -72,7 +72,7 @@ export default function Home() {
         <ProjectList/>
       </section>
       
-      <section className="max-w-5xl mx-auto px-4 md:px-0 mb-12" id="projects">
+      <section className="max-w-5xl mx-auto px-4 md:px-0 mb-12" id="contact">
         <h2 className="text-2xl text-gray-800 font-bold mb-2">Get in touch!</h2>
         <Contact/>
       </section>
