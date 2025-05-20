@@ -8,14 +8,14 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 export default function Contact() {
   // Replace with your actual contact information
   const contactInfo = {
-    email: "jeffrey@example.com",
-    phone: "+1 (123) 456-7890",
+    email: "jeffreyalteza03@gmail.com",
+    phone: "+63 929 230 3476",
     socials: [
-      { name: "GitHub", url: "https://github.com/jeffrey", icon: Github },
-      { name: "LinkedIn", url: "https://linkedin.com/in/jeffrey", icon: Linkedin },
-      { name: "Facebook", url: "https://facebook.com/jeffrey", icon: Facebook },
-      { name: "Instagram", url: "https://instagram.com/jeffrey", icon: Instagram },
-      { name: "TikTok", url: "https://tiktok.com/@jeffrey", icon: ExternalLink },
+      { name: "GitHub", url: "https://github.com/JeffAlteza", icon: Github },
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/jeffrey-alteza-593632209 ", icon: Linkedin },
+      { name: "Facebook", url: "https://www.facebook.com/babjeffrey/", icon: Facebook },
+      { name: "Instagram", url: "https://www.instagram.com/jeffreyalteza", icon: Instagram },
+      { name: "TikTok", url: "https://www.tiktok.com/@jepoyalteza", icon: ExternalLink },
     ],
   }
 
@@ -85,7 +85,7 @@ export default function Contact() {
         {/* Right side - Bio */}
         <div className="bg-black p-8 flex flex-col justify-center items-center text-center">
           <div>
-            <h3 className="text-2xl font-bold text-white mb-2">Jeffrey</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">Jeffrey Alteza</h3>
             <p className="text-gray-300 mb-4">Backend Software Engineer</p>
           </div>
         </div>

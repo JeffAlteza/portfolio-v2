@@ -50,7 +50,7 @@ export function AccordionWorkExperience() {
           <AccordionTrigger>
             <div className="text-xl flex justify-between items-center w-full">
               <p className="text-gray-800 font-bold">{exp.title}</p>
-              <p className="text-sm text-gray-500">({exp.dateRange})</p>
+              <p className="text-sm text-gray-500">{exp.dateRange}</p>
             </div>
           </AccordionTrigger>
           <AccordionContent>
