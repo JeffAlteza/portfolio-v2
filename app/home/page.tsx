@@ -24,7 +24,7 @@ export default function Home() {
           </p>
           <div className="flex space-x-3">
             <DownloadLink
-              link="https://drive.google.com/file/d/1MIns5Gq6JNchG1O3xwrE_btIGT-1xJC-/view?usp=sharing"
+              link="https://drive.google.com/file/d/1-47L5dlpPDiHG5v70lM1PuOM9cEIB9Fs/view?usp=drive_link"
               label="Resume"
             />
             <DownloadLink
